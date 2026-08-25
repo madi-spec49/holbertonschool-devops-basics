@@ -1,0 +1,56 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 136B done
+#1 DONE 0.0s
+
+#2 resolve image config for docker-image://docker.io/docker/dockerfile:1
+#2 ...
+
+#3 [auth] docker/dockerfile:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 resolve image config for docker-image://docker.io/docker/dockerfile:1
+#2 DONE 0.9s
+
+#4 docker-image://docker.io/docker/dockerfile:1@sha256:ecfaec9ed6d810b56388c508f4121597bfbba70d41a6dfeee4d8cad5f295fc32
+#4 resolve docker.io/docker/dockerfile:1@sha256:ecfaec9ed6d810b56388c508f4121597bfbba70d41a6dfeee4d8cad5f295fc32 done
+#4 CACHED
+
+#5 [internal] load metadata for docker.io/library/alpine:3.22
+#5 ...
+
+#6 [auth] library/alpine:pull token for registry-1.docker.io
+#6 DONE 0.0s
+
+#5 [internal] load metadata for docker.io/library/alpine:3.22
+#5 DONE 0.7s
+
+#7 [internal] load .dockerignore
+#7 transferring context: 77B done
+#7 DONE 0.0s
+
+#8 [internal] load build context
+#8 transferring context: 175B done
+#8 DONE 0.0s
+
+#9 [1/3] FROM docker.io/library/alpine:3.22@sha256:14358309a308569c32bdc37e2e0e9694be33a9d99e68afb0f5ff33cc1f695dce
+#9 resolve docker.io/library/alpine:3.22@sha256:14358309a308569c32bdc37e2e0e9694be33a9d99e68afb0f5ff33cc1f695dce 0.0s done
+#9 DONE 0.0s
+
+#10 [2/3] WORKDIR /app
+#10 CACHED
+
+#11 [3/3] COPY . .
+#11 DONE 0.0s
+
+#12 exporting to image
+#12 exporting layers 0.0s done
+#12 exporting manifest sha256:3d7acb34d35781daf964f4353b2af73403f3c0a2cb379e0f8149a4732ccf9427 done
+#12 exporting config sha256:1e6cb787f9d9db923896f5f389e58f5f2b3f0d9cb801340b2743ada40714a2f5 done
+#12 exporting attestation manifest sha256:f8d5fc5b62c4f976a19ca8c4728be226699f9e71d72356fa74ba2f247dff6b5c done
+#12 exporting manifest list sha256:7789b87e93cb6aba58d3f169e23e34c12fe87a7df889973ed2eeb4df058d4909 done
+#12 naming to docker.io/library/context-lab:after done
+#12 unpacking to docker.io/library/context-lab:after done
+#12 DONE 0.0s
+WARNING: current commit information was not captured by the build: failed to read current commit information with git rev-parse --is-inside-work-tree
