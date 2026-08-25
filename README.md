@@ -1,3 +1,4 @@
+HEAD
 # Docker Image Optimization Starter Files
 
 Use these files with the **Optimize Docker Images** project statement.
@@ -8,3 +9,6 @@ Use these files with the **Optimize Docker Images** project statement.
 - Files that look like credentials, logs, repository metadata, reports, or large local data are intentionally fake lab fixtures.
 - No solution Dockerfile is included in this archive.
 - Python bytecode (`__pycache__`, `*.pyc`) and package-manager output are never intentional starter fixtures.
+=======
+# holbertonschool-devops-basics
+793bd931730f69c21dea7bbed59e96d678ef7978
